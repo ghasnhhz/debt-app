@@ -1,0 +1,28 @@
+{
+  "name": "debtapp",
+  "version": "1.0.0",
+  "description": "DebtApp is a simple backend API built with Node.js, Express, and MongoDB Atlas to help local store owners manage customer debts.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghasnhhz/debt-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghasnhhz/debt-app/issues"
+  },
+  "homepage": "https://github.com/ghasnhhz/debt-app#readme",
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
